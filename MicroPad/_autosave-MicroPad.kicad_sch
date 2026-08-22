@@ -6371,12 +6371,40 @@
 		(uuid "425f2c8f-003a-426f-a1db-ca60739c00ee")
 	)
 	(no_connect
+		(at 133.35 110.49)
+		(uuid "50868dfc-f1e0-4806-8a13-79f20da79ad5")
+	)
+	(no_connect
 		(at 163.83 85.09)
 		(uuid "6288fa14-bbee-46f7-b7b5-b68e197ffa22")
 	)
 	(no_connect
+		(at 163.83 72.39)
+		(uuid "633c6e95-6b10-4501-ad9f-f301e067bddf")
+	)
+	(no_connect
 		(at 163.83 87.63)
 		(uuid "7d44baa4-0f40-4d65-8f17-8ca694590172")
+	)
+	(no_connect
+		(at 133.35 82.55)
+		(uuid "8addad89-18f7-4549-b6a5-9c0926c80f7d")
+	)
+	(no_connect
+		(at 133.35 90.17)
+		(uuid "9749026d-e7b1-467a-846b-c7491efdd8f7")
+	)
+	(no_connect
+		(at 133.35 113.03)
+		(uuid "9a6c75c4-1cef-4c0d-96ed-0a33a508c79d")
+	)
+	(no_connect
+		(at 133.35 87.63)
+		(uuid "a73b2a33-a5d8-438c-8348-69b64751f5f2")
+	)
+	(no_connect
+		(at 163.83 74.93)
+		(uuid "acbc83c1-3156-48bb-bfb4-952a18919362")
 	)
 	(no_connect
 		(at 133.35 74.93)
@@ -6389,6 +6417,10 @@
 	(no_connect
 		(at 102.87 64.77)
 		(uuid "d964c51c-454c-4216-981b-ff325a19adec")
+	)
+	(no_connect
+		(at 133.35 85.09)
+		(uuid "f440b1aa-50e4-46fd-b3f7-08c2010f0bc9")
 	)
 	(wire
 		(pts
@@ -6549,16 +6581,6 @@
 			(type default)
 		)
 		(uuid "265c48b9-4666-46f7-b15d-a3d4722b3673")
-	)
-	(wire
-		(pts
-			(xy 130.81 110.49) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28ba0db6-0425-4416-8096-cab3b31c9155")
 	)
 	(wire
 		(pts
@@ -7532,6 +7554,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 92.71) (xy 133.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daefbd28-7bb7-4bdc-98bd-dc23c1cddb2b")
+	)
+	(wire
+		(pts
 			(xy 166.37 97.79) (xy 163.83 97.79)
 		)
 		(stroke
@@ -8140,6 +8172,16 @@
 		)
 		(uuid "9382d5db-02af-49b5-b003-4c8fe55003b2")
 	)
+	(label "CS"
+		(at 129.54 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "956afdca-12d8-43a7-ab73-471abf5b4f24")
+	)
 	(label "USB_D-"
 		(at 50.8 36.83 0)
 		(effects
@@ -8219,16 +8261,6 @@
 			(justify right bottom)
 		)
 		(uuid "a614e89d-1f2d-4f7c-b87d-d4ca9fbf3c46")
-	)
-	(label "CS"
-		(at 130.81 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a7eac7d3-9f46-4cde-b11b-7b0ccac2a8cf")
 	)
 	(label "C1"
 		(at 166.37 82.55 0)
