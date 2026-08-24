@@ -273,7 +273,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -579,7 +579,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "MicroPad.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
