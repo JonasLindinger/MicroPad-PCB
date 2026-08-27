@@ -3374,7 +3374,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:RotaryEncoder_Switch_MP"
+		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
 				(hide yes)
@@ -3385,7 +3385,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
-				(at 0 8.89 0)
+				(at 0 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3394,8 +3394,8 @@
 					)
 				)
 			)
-			(property "Value" "RotaryEncoder_Switch_MP"
-				(at 0 6.35 0)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3416,7 +3416,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -12.7 0)
+				(at 0 6.604 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3426,8 +3426,8 @@
 					)
 				)
 			)
-			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-				(at 0 -15.24 0)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3459,7 +3459,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_MP_0_1"
+			(symbol "RotaryEncoder_Switch_0_1"
 				(rectangle
 					(start -5.08 5.08)
 					(end 5.08 -5.08)
@@ -3684,7 +3684,7 @@
 					)
 				)
 			)
-			(symbol "RotaryEncoder_Switch_MP_1_1"
+			(symbol "RotaryEncoder_Switch_1_1"
 				(pin passive line
 					(at -7.62 2.54 0)
 					(length 2.54)
@@ -3732,24 +3732,6 @@
 						)
 					)
 					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "MP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6850,10 +6832,6 @@
 		(uuid "d7bfae99-a3f0-4d7b-b0a2-078d69c2a64c")
 	)
 	(no_connect
-		(at 102.87 64.77)
-		(uuid "d964c51c-454c-4216-981b-ff325a19adec")
-	)
-	(no_connect
 		(at 133.35 85.09)
 		(uuid "f440b1aa-50e4-46fd-b3f7-08c2010f0bc9")
 	)
@@ -6876,6 +6854,16 @@
 			(type default)
 		)
 		(uuid "0240cf37-c155-481c-a5d8-985a60fd2ff7")
+	)
+	(wire
+		(pts
+			(xy 116.84 54.61) (xy 110.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0418a148-0f72-413c-ae98-b2e6f3c1bcb5")
 	)
 	(wire
 		(pts
@@ -6996,6 +6984,16 @@
 			(type default)
 		)
 		(uuid "1cbe507a-9a9a-4f70-8b09-232ab58484bc")
+	)
+	(wire
+		(pts
+			(xy 92.71 54.61) (xy 95.25 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20966583-fafe-40e7-bc5f-d4b269ca7587")
 	)
 	(wire
 		(pts
@@ -7519,6 +7517,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 59.69) (xy 110.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79ec66ca-3b11-45a4-acb0-126dffd8ab57")
+	)
+	(wire
+		(pts
 			(xy 160.02 157.48) (xy 160.02 154.94)
 		)
 		(stroke
@@ -7836,6 +7844,16 @@
 			(type default)
 		)
 		(uuid "ae5c577e-67a4-4e20-89c0-6141e2a0c8a1")
+	)
+	(wire
+		(pts
+			(xy 92.71 59.69) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea9f076-0f5d-4f69-8843-94ccf56232ee")
 	)
 	(wire
 		(pts
@@ -8358,7 +8376,7 @@
 		(uuid "12b7b718-7d6d-4ac6-b072-41aa634ba24c")
 	)
 	(label "C4"
-		(at 110.49 59.69 0)
+		(at 111.76 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8438,7 +8456,7 @@
 		(uuid "42e31fca-84d7-49f9-9266-8e7356f3c88d")
 	)
 	(label "A"
-		(at 95.25 54.61 180)
+		(at 92.71 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8698,7 +8716,7 @@
 		(uuid "a9206517-d545-4b04-b8b0-9a18e9b444d5")
 	)
 	(label "B"
-		(at 95.25 59.69 180)
+		(at 92.71 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8818,12 +8836,12 @@
 		(uuid "dba20dde-a2c6-4c2c-b4a2-91400c19927d")
 	)
 	(label "Diode out"
-		(at 110.49 54.61 0)
+		(at 116.84 54.61 270)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dce70ee2-5e8c-4590-9747-bafc0e5923dc")
 	)
@@ -11064,6 +11082,95 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 102.87 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ea6e99f-f2f9-4204-8545-f6fe349e507e")
+		(property "Reference" "SW12"
+			(at 102.87 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 102.87 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+			(at 99.06 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 50.546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 102.87 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S1"
+			(uuid "e79424c5-bb79-4019-b547-99137309a805")
+		)
+		(pin "C"
+			(uuid "3cc4e1d7-ea32-4706-945b-91e2d32347ed")
+		)
+		(pin "S2"
+			(uuid "e46ab884-94d3-4925-9457-824a90c21944")
+		)
+		(pin "A"
+			(uuid "c03d0f20-5ee5-4dc1-b5fd-44259a8b6991")
+		)
+		(pin "B"
+			(uuid "b7144650-5169-4eef-8909-fa991818c444")
+		)
+		(instances
+			(project "MicroPad"
+				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 64.77 118.11 270)
 		(unit 1)
@@ -11840,98 +11947,6 @@
 			(project "MicroPad"
 				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
 					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:RotaryEncoder_Switch_MP")
-		(at 102.87 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5762b1ba-ef95-4061-aac7-17ea263f32fb")
-		(property "Reference" "SW15"
-			(at 102.87 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RotaryEncoder_Switch_MP"
-			(at 102.87 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm_MountingHoles"
-			(at 99.06 53.086 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
-			(at 102.87 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C"
-			(uuid "5fbb9889-e68f-4d2d-a2b9-ff07d32dcc81")
-		)
-		(pin "S1"
-			(uuid "229ed687-06fb-4bcf-be4b-868fd50ca6cc")
-		)
-		(pin "B"
-			(uuid "ac7ff875-74ac-4a52-aa70-ebe1acd9c854")
-		)
-		(pin "A"
-			(uuid "6928a261-6025-452b-b450-6052908205bc")
-		)
-		(pin "MP"
-			(uuid "9c6a7f3d-972a-4f0d-ab4d-11fcfe722ff2")
-		)
-		(pin "S2"
-			(uuid "03d37daf-a909-4498-afda-5f67feb26457")
-		)
-		(instances
-			(project "MicroPad"
-				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
-					(reference "SW15")
 					(unit 1)
 				)
 			)
@@ -17679,7 +17694,7 @@
 		(dnp no)
 		(uuid "e9656d8f-611c-4bb6-810b-2e69afc8696e")
 		(property "Reference" "C15"
-			(at 105.664 15.494 90)
+			(at 104.648 15.748 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
