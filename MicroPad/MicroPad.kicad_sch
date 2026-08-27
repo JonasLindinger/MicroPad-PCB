@@ -11,6 +11,344 @@
 		(company "Jonas Lindinger")
 	)
 	(lib_symbols
+		(symbol "500ASSP1SM6QE:500ASSP1SM6QE"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at -2.54 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "500ASSP1SM6QE"
+				(at -2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "500ASSP1SM6QE:SW_500ASSP1SM6QE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SLIDE, 3A, 120VAC/28VDC SPDT, On-On, Surface Mount, Right Angle"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "6.08 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/500ASSP1SM6QE/E-Switch/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/500ASSP1SM6QE/E-Switch/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "500ASSP1SM6QE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "E-Switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SNAPEDA_PN" "500ASSP1SM6QE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "500ASSP1SM6QE_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.794 2.1336)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3302)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 2.921 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.921 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "B2B-PH-K-S:B2B-PH-K-S"
 			(pin_names
 				(offset 1.016)
@@ -6828,6 +7166,10 @@
 		(uuid "cc3d89b4-e85d-4bf1-910f-d484dc43d16d")
 	)
 	(no_connect
+		(at 114.3 142.24)
+		(uuid "d77f269f-ad66-4029-9051-8495a2ad4ca4")
+	)
+	(no_connect
 		(at 45.72 53.34)
 		(uuid "d7bfae99-a3f0-4d7b-b0a2-078d69c2a64c")
 	)
@@ -7207,6 +7549,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1d5ded-ed6c-412f-be0d-a2e9948af8ad")
+	)
+	(wire
+		(pts
 			(xy 41.91 101.6) (xy 41.91 114.3)
 		)
 		(stroke
@@ -7224,6 +7576,16 @@
 			(type default)
 		)
 		(uuid "3e8945a0-c968-4830-bc21-e19a9821086e")
+	)
+	(wire
+		(pts
+			(xy 198.12 111.76) (xy 210.82 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4196fc5c-b5db-455f-a290-60f96dfccfc4")
 	)
 	(wire
 		(pts
@@ -7314,6 +7676,16 @@
 			(type default)
 		)
 		(uuid "50393992-da96-4e3e-b057-691b0bafe311")
+	)
+	(wire
+		(pts
+			(xy 96.52 139.7) (xy 99.06 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "525efdcd-3716-4f19-84ca-7b75947d6c64")
 	)
 	(wire
 		(pts
@@ -8375,6 +8747,16 @@
 		)
 		(uuid "12b7b718-7d6d-4ac6-b072-41aa634ba24c")
 	)
+	(label "PWR S1"
+		(at 187.96 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1ae5d7d3-8efc-4cb6-90b0-93306349971b")
+	)
 	(label "C4"
 		(at 111.76 59.69 0)
 		(effects
@@ -8385,16 +8767,6 @@
 		)
 		(uuid "269bf87b-e772-4513-8cd9-03db74028f3a")
 	)
-	(label "PWR OUT"
-		(at 134.62 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "26d7832c-cf4d-4f6d-a0c2-3d2b6cde98b2")
-	)
 	(label "MOSI"
 		(at 166.37 92.71 0)
 		(effects
@@ -8404,16 +8776,6 @@
 			(justify left bottom)
 		)
 		(uuid "2979e76f-e66f-4365-92d2-703c76bd4fe2")
-	)
-	(label "PWR OUT"
-		(at 187.96 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2bbc5a1a-ba86-4df6-a592-5645535a6305")
 	)
 	(label "BUSY"
 		(at 187.96 35.56 180)
@@ -8444,6 +8806,16 @@
 			(justify right bottom)
 		)
 		(uuid "36b922bd-f88c-4b32-90d0-9e8a0b218424")
+	)
+	(label "PWR S1"
+		(at 25.4 160.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "39adac84-95ec-476a-8de9-15578761b9ae")
 	)
 	(label "C2"
 		(at 29.21 76.2 0)
@@ -8485,6 +8857,16 @@
 		)
 		(uuid "48a1a1e6-8288-4abf-8574-1ff827c52208")
 	)
+	(label "PWR S2"
+		(at 134.62 154.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4a0eecdc-8fe6-4ad2-9781-72e0613c3761")
+	)
 	(label "CLK"
 		(at 187.96 25.4 180)
 		(effects
@@ -8505,6 +8887,16 @@
 		)
 		(uuid "4eadf81c-8fbe-483c-b2e1-f8b4e50d3a7d")
 	)
+	(label "PWR S2"
+		(at 116.84 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59545bfd-af5a-4d13-8285-2ae3c957a0b2")
+	)
 	(label "R2"
 		(at 78.74 109.22 0)
 		(effects
@@ -8524,6 +8916,16 @@
 			(justify left bottom)
 		)
 		(uuid "67c389b1-8d59-4d82-9159-07842d541b1e")
+	)
+	(label "PWR S1"
+		(at 96.52 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b134bc6-f1b1-45ec-8f82-83ee4ed6b144")
 	)
 	(label "DC"
 		(at 166.37 97.79 0)
@@ -8575,6 +8977,16 @@
 		)
 		(uuid "7b747329-ed1b-4799-a944-c5bd5d3d082c")
 	)
+	(label "PWR S1"
+		(at 72.39 147.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "801486ff-c603-49c5-83a5-537e5a311090")
+	)
 	(label "USB_D+"
 		(at 109.22 27.94 0)
 		(effects
@@ -8624,6 +9036,16 @@
 			(justify right bottom)
 		)
 		(uuid "921edfc7-ed51-4b48-9c64-f93f0b27d3a0")
+	)
+	(label "PWR S1"
+		(at 187.96 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92f20fd8-8d12-42ef-9485-2853aab253cb")
 	)
 	(label "CTRL LED"
 		(at 187.96 49.53 180)
@@ -8755,25 +9177,15 @@
 		)
 		(uuid "be502a31-76b3-47d0-9805-2bf5961b76f5")
 	)
-	(label "PWR OUT"
-		(at 187.96 80.01 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "be943701-f2fb-4341-9e20-be5ca7814d4c")
-	)
-	(label "PWR OUT"
-		(at 72.39 147.32 0)
+	(label "PWR S2"
+		(at 210.82 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "bf285fe8-9c6d-4b9b-9396-09eeacdbb780")
+		(uuid "cb9d1aa4-398e-4f0d-91bc-9430dd4617d1")
 	)
 	(label "BUSY"
 		(at 166.37 102.87 0)
@@ -8864,16 +9276,6 @@
 			(justify right bottom)
 		)
 		(uuid "dfb14e54-a0ce-4196-94ea-1e656770e6c0")
-	)
-	(label "PWR OUT"
-		(at 25.4 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e895faef-119c-4865-b015-26c742478633")
 	)
 	(label "D-"
 		(at 50.8 36.83 0)
@@ -13573,6 +13975,235 @@
 		)
 	)
 	(symbol
+		(lib_id "500ASSP1SM6QE:500ASSP1SM6QE")
+		(at 106.68 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74ec493e-3efb-40a8-83f0-690054e63657")
+		(property "Reference" "S1"
+			(at 106.68 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "500ASSP1SM6QE"
+			(at 106.68 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "500ASSP1SM6QE:SW_500ASSP1SM6QE"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SLIDE, 3A, 120VAC/28VDC SPDT, On-On, Surface Mount, Right Angle"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "E-Switch"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "6.08 mm"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/500ASSP1SM6QE/E-Switch/view-part/?ref=eda"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/500ASSP1SM6QE/E-Switch/view-part/?ref=snap"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "500ASSP1SM6QE"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "E-Switch"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PN" "500ASSP1SM6QE"
+			(at 106.68 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "49c0a431-a974-4838-b096-f04ddc465d18")
+		)
+		(pin "3"
+			(uuid "edbd8395-73f1-4292-8a81-4f2a7c9c7cfc")
+		)
+		(pin "1"
+			(uuid "26d39089-a6b6-4d4b-a571-35d88504d3f8")
+		)
+		(instances
+			(project "MicroPad"
+				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 208.28 49.53 90)
 		(unit 1)
@@ -13966,6 +14597,85 @@
 			(project "MicroPad"
 				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85aa436c-5145-425d-a71f-14a48aa28467")
+		(property "Reference" "#FLG04"
+			(at 196.215 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 194.31 111.7599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa4f2af0-ffed-4a36-bc34-874d5862a1b5")
+		)
+		(instances
+			(project "MicroPad"
+				(path "/004cc7b8-7c24-4edb-87f9-f7a29ef0ea7f"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
